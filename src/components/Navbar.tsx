@@ -39,7 +39,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between">
           <a href="#" className="text-2xl font-poppins font-bold text-primary">
-            Lovable AI
+            Real-Time Disaster Detection
           </a>
 
           <nav className="hidden md:block">
