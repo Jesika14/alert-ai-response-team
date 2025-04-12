@@ -4,11 +4,7 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Users } from 'lucide-react';
 
 const teamMembers = [
-  { name: 'Jesika Rai', role: 'Team Member' },
-  { name: 'Prachi Katare', role: 'Team Member' },
-  { name: 'Ritu Badgoti', role: 'Team Member' },
-  { name: 'Navneet Meena', role: 'Team Member' },
-  { name: 'Saurabh Kumar Meena', role: 'Team Member' }
+  { name: 'Prachi Katare', role: 'Team Member' }
 ];
 
 const Team = () => {
@@ -45,7 +41,7 @@ const Team = () => {
               <div className="my-4 w-24 h-24 bg-gray-200 rounded-full flex items-center justify-center mx-auto">
                 <Users className="h-12 w-12 text-gray-dark" />
               </div>
-              <p className="text-xl font-medium text-primary">G. Venkat Ram Reddy</p>
+              <p className="text-xl font-medium text-primary">Chandana N</p>
               <p className="text-gray-dark/70 mt-1">Project Mentor & Guide</p>
             </CardContent>
           </Card>
@@ -56,3 +52,4 @@ const Team = () => {
 };
 
 export default Team;
+
